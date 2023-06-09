@@ -1,0 +1,3 @@
+# C-Codes are submitted here enjoy and feel free to use this git repo for downloading the codes.
+Use vscode or any other editor in which you are really comfortable in working with.
+Enjoy ;)
