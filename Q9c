@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int numLines;
+
+    printf("Enter the number of lines: ");
+    scanf("%d", &numLines);
+
+    for (int i = 1; i <= numLines; i++) {
+        // Print spaces
+        for (int j = 1; j <= numLines - i; j++) {
+            printf(" ");
+        }
+
+        // Print stars
+        for (int k = 1; k <= i; k++) {
+            printf("* ");
+        }
+
+        printf("\n");
+    }
+
+    return 0;
+}
